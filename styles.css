@@ -1,0 +1,21 @@
+textarea{
+    font-size: larger;
+    width: 30%;
+    height: 10vh;
+    padding: 1rem;
+    margin: 1rem;
+}
+#btntranslate{
+    padding: 0.25rem;
+}
+p{
+font-size: larger;
+margin-left: 1rem;
+}
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+}
