@@ -2,7 +2,7 @@
 var btntranslate = document.querySelector("#btntranslate");
 var inputtext = document.querySelector("#textarea1")
 var outputtext = document.querySelector("#output")
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var url = "https://api.funtranslations.com/translate/minion.json"
 
 function errorhandler(error) {
     alert("An error occured with server")
@@ -20,7 +20,7 @@ function translate() {
     then(response=>response.json()).
     then(json=> {
         var translatedtext = json.contents.translated;
-        outputtext.innerText= translatedtext }).
+        outputtext.innerHTML= translatedtext }).
     catch(errorhandler)
 }
 

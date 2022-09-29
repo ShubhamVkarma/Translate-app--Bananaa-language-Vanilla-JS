@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,700&display=swap');
+
+
+
 textarea{
     font-size: larger;
-    width: 30%;
+    width: 85%;
     height: 10vh;
     padding: 1rem;
     margin: 1rem;
+    display: block;
+    font-size: large;
 }
 #btntranslate{
     padding: 0.25rem;
+    padding: 0.5rem;
+    font-size: larger;
+    background-color: #FFD55E;
+    margin: auto;
 }
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+} 
+
 p{
 font-size: larger;
 margin-left: 1rem;
@@ -15,7 +31,45 @@ margin-left: 1rem;
 #output{
     border: 1px solid black;
     height: 10vh;
-    width: 30%;
+    width: 85%;
     padding: 1rem;
     margin: 1rem;
+    overflow: auto;
+    align-items: center;
 }
+.headertext{
+    background-color:#FFD55E;
+    height: 5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+   
+}
+.headertext h1{
+    text-align: center;
+    color: black;  
+    margin-top: 0rem;
+    padding-top: 1rem;
+
+}
+.center-container{
+    max-width:400px;
+    margin: auto;
+    padding: 2rem;
+    text-align:  center;
+
+}
+.herocontainer{
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
