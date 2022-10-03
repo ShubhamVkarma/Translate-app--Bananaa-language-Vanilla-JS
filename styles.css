@@ -17,12 +17,24 @@ textarea{
     font-size: larger;
     background-color: #FFD55E;
     margin: auto;
+    cursor: pointer;
+    box-shadow: 0 10px white;
 
+}
+#btntranslate:hover {
+    background-color:#577fa1;
+    color: white;
+}
+#btntranslate:active{
+    background-color:#577fa1;
+    box-shadow: 1 10px white;
+    transform: translateY(4px);
 }
 
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
 } 
 
 p{
@@ -37,6 +49,7 @@ margin-left: 1rem;
     margin: 1rem;
     overflow: auto;
     align-items: center;
+    background-color: white;
 }
 .headertext{
     background-color:#FFD55E;
